@@ -1,0 +1,37 @@
+{
+  "name": "recipebook",
+  "version": "1.0.0",
+  "description": "RecipeBook",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --detectOpenHandles --forceExit",
+    "start": "node index.js"
+  },
+  "engine": {
+    "node": "21.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "punycode": "^2.3.1",
+    "winston": "^3.11.0",
+    "winston-mongodb": "^5.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}

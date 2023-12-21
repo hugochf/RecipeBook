@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey":"recipebook_jwtPrivateKey",
+    "db": "recipebook_db"
+}

@@ -1,0 +1,54 @@
+[2023-12-21 11:06:26.160 AM] [31merror[39m: 	[31muncaughtException: FATAL ERROR: jwtPrivateKey is not defined.[39m
+[31mError: FATAL ERROR: jwtPrivateKey is not defined.[39m
+[31m    at module.exports (/Volumes/NO NAME/recipeBook/startup/config.js:5:11)[39m
+[31m    at Object.<anonymous> (/Volumes/NO NAME/recipeBook/index.js:7:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)[39m
+[31m    at node:internal/main/run_main_module:28:49[39m
+[2023-12-21 12:03:48.649 PM] [31merror[39m: 	[31muncaughtException: Cannot access 'db' before initialization[39m
+[31mReferenceError: Cannot access 'db' before initialization[39m
+[31m    at module.exports (/Volumes/NO NAME/recipeBook/startup/db.js:6:25)[39m
+[31m    at Object.<anonymous> (/Volumes/NO NAME/recipeBook/index.js:6:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)[39m
+[31m    at node:internal/main/run_main_module:28:49[39m
+[2023-12-21 12:04:22.201 PM] [31merror[39m: 	[31muncaughtException: Cannot access 'db' before initialization[39m
+[31mReferenceError: Cannot access 'db' before initialization[39m
+[31m    at module.exports (/Volumes/NO NAME/recipeBook/startup/db.js:6:25)[39m
+[31m    at Object.<anonymous> (/Volumes/NO NAME/recipeBook/index.js:6:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)[39m
+[31m    at node:internal/main/run_main_module:28:49[39m
+[2023-12-21 12:05:08.575 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::3000[39m
+[31mError: listen EADDRINUSE: address already in use :::3000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1872:16)[39m
+[31m    at listenInCluster (node:net:1920:12)[39m
+[31m    at Server.listen (node:net:2008:7)[39m
+[31m    at Function.listen (/Volumes/NO NAME/recipeBook/node_modules/express/lib/application.js:635:24)[39m
+[31m    at Object.<anonymous> (/Volumes/NO NAME/recipeBook/index.js:11:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)[39m
+[2023-12-21 05:35:56.385 PM] [31merror[39m: 	[31muncaughtException: listen EADDRINUSE: address already in use :::3000[39m
+[31mError: listen EADDRINUSE: address already in use :::3000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1872:16)[39m
+[31m    at listenInCluster (node:net:1920:12)[39m
+[31m    at Server.listen (node:net:2008:7)[39m
+[31m    at Function.listen (/Volumes/NO NAME/recipeBook/node_modules/express/lib/application.js:635:24)[39m
+[31m    at Object.<anonymous> (/Volumes/NO NAME/recipeBook/index.js:12:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)[39m
